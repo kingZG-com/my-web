@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portoflio's Web</title>
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+    </style>
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+    </style>
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+    </style>
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
+    </style>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+ 
+   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+   
+   <link rel="stylesheet" type="text/css" href="My Css.css">
+   
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v11.0" nonce="WHzSo5Gq"></script>
+  
+</head>
+<body>
+    <img class="gbr" src="Me.jpg" width="36" alt="Ini Gambar Saya">
+    
+      <h6 class="n1">Achmad Shofi Zakaria</h6>
+      <u class="n2">Student</u>
+      <div class="hyr">
+        <a href="#"><i class="fas fa-house-user"></i></a>
+        <a href ="#about"><i class="fas fa-user-circle"></i></a>
+        
+        <a href="#story"><i class="fas fa-user-edit"></i></a>
+       
+        <a href="#kontak"><i class="fas fa-paper-plane"></i></a>
+        </div>
+        
+        <div class="txt">
+          <u class="hs">Home</u>
+          <u class="bl">About</u>
+          <u class="ab">Story</u>
+          <u class="ct">Contact</u>
+        </div>
+  <div class="sidebar">
+    <div class="ht"></div>
+    <div class="pro">
+      <center><img class="myi" src="Me.jpg" width="130" alt="Ini Gambar diri saya"></center>
+      
+      <h3 class="Aa">A.Shofi Zakaria</h3>
+      <h4 class="hn">Student</h4>
+     
+      <ul class="">
+        
+        <li><a class="akt" href="#"><i class="fas fa-home"></i>     Home</a></li>
+        
+        <li><a class="Abt" href="#about"><i class="fas fa-address-card"></i>     About</a></li>
+        
+        <li><a class="str" href="#story"><i class="fas fa-user-tag"></i>     Story</a></li>
+        
+        <li><a class="cmnt" href="#comen"><i class="far fa-comments"></i>     Comment</a></li>
+        
+        <li><a class="kntk" href="#kontak"><i class="fa fa-envelope"></i>     Contact</a></li>
+      </ul>
+      
+      <button class="sidebarBtn">
+        
+        <span></span>
+        
+      </button>
+      
+    </div>
+    
+  </div>
+  
+  <center>
+    
+    <div class="bio">
+      
+    <img class="foto"src="Me.jpg" width="125" alt="Ini adalah Gambar Saya">
+    
+    <h4 class="h4">Student</h4>
+    
+     <p class="bite">Hai, Saya adalah Pelajar dari<br> <a class="pm"href="#">MA Maftahul Falah.</a>Saya tinggal di<br> Jepara. Hobi saya adalah<br> Coding.Cita-cita saya ingin jadi<br> Programmer. Saya adalah mantan<br> anggota dari <u class="pe">Super Coding Internasional [SCI]</u></p>
+     
+     <div id="link">
+           <a id="l1" href="https://api.whatsapp.com/send?phone=6283866445087" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
+           <a id="l3" href="https://www.facebook.com/shofi.g.speed" target="_blank"><i class="fab fa-facebook"></i></a>
+           <a id="l2" href="https://youtube.com/channel/UCUqW2ZFp2syUU9dcjNj4hrQ" target="_blank"><i class="fab fa-youtube"></i></a>
+           
+    </div>     
+    
+  </div>
+  
+  </center>
+  
+  <div id ="alert"class="alert alert-primary alert-dismissible fade show my-alert d-none " role="alert">
+    <strong>Terimakasih!</strong> Anda Telah memberikan Thumbs-up kepada saya
+    
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  
+  <div class="lst text-center">
+    <li id="hero" onclick=" alerS() " class="heri"><a class="lk" href="#"><i class="far fa-thumbs-up"></i><br><u class="lk">Like</u></a></li>
+    <li><a class="ctm" href="#comen"><i class="far fa-comment-dots"></i><br>Comment</a></li>
+    <li><a class="sh"  href="https://youtube.com/channel/UCUqW2ZFp2syUU9dcjNj4hrQ" target="_blank"><i class="fab fa-youtube-square"></i><br>Subscribe</a></li>
+    <li><a class="fl" href="https://www.facebook.com/shofi.g.speed" target="_blank"><i class="fab fa-facebook-square"></i><br>Add</a></li>
+  </div>
+  
+  
+  <section id="about">
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="0.4" d="M0,256L48,240C96,224,192,192,288,154.7C384,117,480,75,576,96C672,117,768,203,864,224C960,245,1056,203,1152,176C1248,149,1344,139,1392,133.3L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <div class="container">
+
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h1 class="abt-me"> ~ About Me ~</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center fs-3">
+        
+        <div class="col-md-4 mb-3">
+          <u class="me-1">Nama lengkap saya adalah Achmad Shofi Zakaria. Saya dikenal sebagai orang yg ramah dan periang.</u>
+        </div>
+        <div class="col-md-4">
+          <u class="me-2">Disamping itu saya tipe orang pekerja keras dan tekun belajar. Saya juga orang yang disiplin</u>
+        </div>
+      </div>
+    </div>
+  </section>
+   <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="0.4" d="M0,64L48,85.3C96,107,192,149,288,154.7C384,160,480,128,576,106.7C672,85,768,75,864,74.7C960,75,1056,85,1152,101.3C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+   
+   <section id="story">
+     <div class="container">
+       <div class="row text-center">
+         <div class="col">
+           <h1 class="myh2"> ~ My Story ~</h1>
+         </div>
+       </div>
+     </div>
+ 
+   
+     <div class="row text-center fs-4">
+       
+       <div class="col-md-4 fs-4 mypr">
+         <img class="s0" src="IMG-20210829-WA0028.jpg"alt="My First Story"width="300">
+         <br>
+         <b class="dt1">(30 Mei 2021)</b>
+         <br>
+         <u class="s1">Ini adalah Liburan ketika usai UM. Kami berencana pergi ke Kali Bening. Sesampainya disana kami foto bersama sebagai kenangan. </u>
+       </div>
+       
+        <div class="col-md-4 fs-4 mypr">
+          <img class="S1" src="IMG-20210728-WA0036.jpg" alt="My First Story" width="300">
+          <br>
+          <b class="dt1">(1 Juni 2021)</b>
+          <br>
+          <u class="s1">Ini adalah Cerita pertama saya Berlibur bersama satu tim Squad Mobile Legends. Kami berwisata ke kolam Renang Moya Shovi.</u>
+        </div>
+        
+         <div class="col-md-4 fs-4 mypr">
+           <img class="S2"src="IMG-20210826-WA0011.jpg" alt="My First Story" width="300">
+           <br>
+           <b class="dt1">(26 Agustus 2021)</b>
+           <br>
+           <u class="s1">Ini adalah Momen ketika kelas kami X IPA MA Maftahul Falah </b>mendapatkan juara :
+           <br>
+           <b class="lg">
+           1.Juara Terbaik Desain Logo
+           <br>
+           2.Juara 1 dan 2 Lomba Kaligrafi<br>
+           3.Juara 2 K3</b>
+           </u>
+         </div>
+         
+         <div class="col-md-4 fs-4 mypr">
+           <img class="S1" src="Akudeni.jpg" alt="My First Story" width="300">
+           <br>
+           <b class="dt1">(31 Agustus 2021)</b>
+           <br>
+           <u class="s1">Kami sedang membersihkan Aula untuk melancarkan proses Pelantikan Pengurus Organisasi IPNU-IPPNU MA Maftahul Falah Sinanggul.</u>
+         </div>
+         
+         <div class="col-md-4 fs-4 mypr">
+           <img class="S1" src="Kami3.jpg" alt="My First Story" width="300">
+           <br>
+           <b class="dt1">(31 Agustus 2021)</b>
+           <br>
+           <u class="s1">Kami memasang bendera dan menata kursi untuk acara pelantikan organisasi IPNU-IPPNU tanggal 1 September.</u>
+         </div>
+         
+         <div class="col-md-4 fs-4 mypr">
+           <img class="S1" src="Me2.jpeg" alt="My First Story" width="300">
+           <br>
+           <b class="dt1">(1 September 2021)</b>
+           <br>
+           <u class="s1">Saya bersama <b>Kak Deni</b> selaku <i><b> Wakil Ketua IPNU</i></b> Sedang mempersiapkan diri untuk proses pelantikan nanti.</u>
+         </div>
+         
+        <div class="col-md-4 fs-4 mypr">
+          <img class="S1" src="Ginanjar.jpg" alt="My First Story" width="300">
+          <br>
+          <b class="dt1">(1 September 2021)</b>
+          <br>
+          <u class="s1">Proses Pelantikan dimulai, dan saya dilantik sebagai <b><i>Sekretaris Umum IPNU</i></b> dan <b>Kak Deni</b> sebagai <b><i>Wakil Ketua IPNU</i></b></u>
+        </div>
+        
+        <div class="col-md-4 fs-4 mypr">
+          <img class="S1" src="ipnuma.jpg" alt="My First Story" width="300">
+          <br>
+          <b class="dt1">(1 September 2021)</b>
+          <br>
+          <u class="s1">Seusai Pelantikan, kita foto bersama sebagai kenangan (Kelas X dan Kelas XI) </u>
+        </div>
+        <div class="col-md-4 fs-4 mypr">
+        <img class="S1" src="kelar.jpg" alt="My First Story" width="300">
+        <br>
+        <b class="dt1">(1 September 2021)</b>
+        <br>
+        <u class="s1">Sebelum pulang,saya mengajak foto bersama Rekanita <b>Anggi</b> dan <b>Intan</> serta rekan-rekanita yang lain.</u>
+        </div>
+     </div>
+     </section>
+   <form name="myForm" action="" onsubmit="return sender()" method="post">
+  <center> 
+  <div class="contact">
+    
+    <h2 id="kontak" class="text">Kritik & Saran</h2>
+
+        <input id="name" class="name" type="name" placeholder="Masukkan Nama Anda" name="name" required/>
+       
+      
+      <input id ="email" class="email" type="text" placeholder="Masukkan Email / No.HP Anda" name="email" required/>
+    
+    
+      <textarea id="message" class="pesan" type="text" placeholder="Ketik Pesan Anda" name="message" required/></textarea>
+   
+      <input class="button" type="submit" value="Kirim">
+      
+      <button class="btn btn-primary d-none btn-loading" type="button" disabled>
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+        Loading...
+      </button>
+    </form>
+  </div>
+  </center>
+  <center>
+    <div class="alert alert-success alert-dismissible fade show my-Alert d-none" role="alert">
+      <strong>Terimakasih!</strong> Pesan anda sudah terkirim
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    
+    <div class="alert alert-warning alert-dismissible fade show Alerr d-none" role="alert">
+      <strong>Terjadi kesalahan!</strong> Pesan anda tidak terkirim
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  </center>
+  <div class="blank"></div>
+  
+  <div id="comen" class="fb-comments" data-href="http://localhost:7700/WEBSITE/My%20web.html" data-width="10px" data-numposts="5"></div>
+  
+  <center><div class="footer">
+    <h6 class="ft">©King_Zakaria™</h6>
+  </div></center>
+
+  <script>
+  
+    $('.sidebarBtn').click(function(){
+      
+      $('.sidebar').toggleClass('active');
+      
+      $('.sidebarBtn').toggleClass('toggle');
+    });
+    
+    
+   $('.kntk').click(function(){
+     $('.sidebar').toggleClass('active');
+     
+     $('.sidebarBtn').toggleClass('toggle');
+   });
+   
+   $('.akt').click(function(){
+     $('.sidebar').toggleClass('active');
+     
+     $('.sidebarBtn').toggleClass('toggle');
+   });
+    
+    $('.Abt').click(function(){
+     $('.sidebar').toggleClass('active');
+     
+     $('.sidebarBtn').toggleClass('toggle');
+   });
+   
+   $('.str').click(function(){
+     $('.sidebar').toggleClass('active');
+     
+     $('.sidebarBtn').toggleClass('toggle');
+   });
+   
+   $('.cmnt').click(function(){
+     $('.sidebar').toggleClass('active');
+     
+     $('.sidebarBtn').toggleClass('toggle');
+   });
+   
+  </script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+  </script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  
+     <script src="Myjs.js"></script>
+  
+</body>
+
+</html>

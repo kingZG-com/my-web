@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=KoHo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+      margin:0;
+      padding:0;
+      font-family:Arial;
+}
+    
+    .sidebar{
+      position: fixed;
+      top:0;
+      left:-250px;
+      background-color:#252525;
+      box-shadow: 0 0px 10px grey;
+      width:250px;
+      height:102%;
+      transition:.3s;
+    }
+    .pro{
+      width:100%;
+      height:100%;
+      margin:auto;
+    }
+    img{
+      margin-top:20px;
+    }
+   .Aa{
+     color:#fff;
+     text-align:center;
+     font-family: 'Titillium Web', sans-serif;
+     margin-top:10px;
+   } 
+    .hn{
+      color:#fff;
+      text-align: center;
+      font-family: 'Chela One',cursive;
+    }
+   .ht{
+     border-bottom:2px solid white;
+     width:100%;
+     position:absolute;
+     top:270px;
+   }
+    ul{
+      margin-left:0px;
+      padding:20px 0px;
+      position:relative;
+      top:40px;
+      font-family: 'Prompt',sans-serif;
+    }
+    ul li{
+      list-style:none;
+    }
+    ul li a{
+      text-decoration: none;
+      padding:10px 20px;
+      margin-left:-30px;
+      display:block;
+      color:#727272;
+      border-bottom:1px solid rgba(0,0,0,0,2);
+      font-size:20px;
+    }
+    ul li a:hover{
+      background-color:#454545;
+      color:#fff;
+      border-radius:5px;
+    }
+    .sidebarBtn{
+      position:absolute;
+      top:0px;
+      right:-50px;
+      width:50px;
+      height:50px;
+      box-sizing: border-box;
+      cursor:pointer;
+      border:none;
+      outline:none;
+      background :#fff;
+      box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .sidebarBtn span{
+      display:block;
+      width: 35px;
+      height:3px;
+      background-color:#000;
+      position:absolute;
+      top:24px;
+      transition : .3s;
+    }
+    
+    .sidebarBtn span:before{
+      content :'';
+      width:100%;
+      height:3px;
+      background-color:#000;
+      position:absolute;
+      top:-10px;
+      left:0;
+      transform:.3s;
+    }
+   .sidebarBtn span:after{
+     content:'';
+     width:100%;
+     height:3px;
+     background-color:#000;
+     position:absolute;
+     top:10px;
+     left:0px;
+     transition:.3s;
+   }
+   .active{
+     left:0px;
+   }
+  .sidebarBtn.toggle span{
+    background-color:transparent;
+  }
+  .sidebarBtn.toggle span:before{
+    background: #D20000;
+    top:0;
+    transform: rotate(-45deg);
+  }
+  .sidebarBtn.toggle span:after{
+    background: #D20000;
+    top:0;
+    transform: rotate(45deg);
+  }
+  .foto{
+    margin-left:-300px;
+    margin-top:50px;
+    border-radius: 100%;
+    border:3px solid white;
+    background:blue;
+  }
+  .h4{
+    margin-left:-300px;
+    padding-top:15px;
+    font-family: 'Acme',sans-serif;
+    font-size:17px;
+  }
+
+.bite{
+  font-size:17px;
+  text-indent:30px;
+  margin-left:140px;
+  margin-top:-180px;
+  line-height:0.77cm;
+  padding-right:10px;
+  font-family: 'Itim', cursive;
+
+}
+.bio{
+  margin-top:5px;
+  padding-left:20px;
+  padding-bottom:10px;
+  background: url('IMG_20210825_155221.jpg');
+  background-size: 100%;
+  border-radius:5px;
+  width:102%;
+  height:300px;
+}
+.pm{
+  font-size:15px;
+  text-decoration: none;
+  color:#7606FF;
+  cursor : pointer;
+  font-family: 'Rubik', sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+  animation:kelip 3s infinite ease-in-out;
+}
+@keyframes kelip{
+  0%{}
+  10%{color:yellow;}
+  20%{color:red;}
+  30%{color:green;}
+  40%{color:magenta;}
+  50%{color:aqua;}
+  60%{color:blue;}
+  70%{color:orange;}
+  80%{color:pink;}
+  90%{color:darkslateblue;}
+  100%{color:#AA5EFF;}
+}
+.fa-whatsapp-square{
+  font-size: 18px;
+  color : black;
+}
+.fa-facebook{
+  font-size:18px;
+  color: black;
+}
+.fa-youtube{
+  font-size:18px;
+  color : black;
+}
+#link{
+  letter-spacing:5px;
+  margin-right:295px;
+  margin-top:-5px;
+}
+.pe{
+  color:blue;
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 0.5px;
+  font-size:20px;
+  text-decoration : none;
+}
+p::first-letter{
+  color:blue;
+  font-size:20px;
+}
+
+.contact{
+  margin-top:5cm;
+  padding:20px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  width:102%;
+  height:550px;
+  font-family: "Poppins",sans-serif;
+  background:url('images (1).jpeg');
+  background-size:cover;
+}
+.text{
+  float:left;
+  font-size:24px;
+}
+.name{
+  float:left;
+  background:#F7F7F7;
+  width:100%;
+  height:50px;
+  border:0.5px solid black;
+  outline:none;
+  text-indent:10px;
+  margin-top:40px;
+  border-radius:5px;
+}
+.email{
+  float:left;
+  background: #F7F7F7;
+  width:100%;
+  height:50px;
+  border:0.5px solid black;
+  outline:none;
+  text-indent: 10px;
+  margin-top:50px;
+  border-radius:5px;
+}
+.pesan{
+  float:left;
+  background: #F7F7F7;
+  width:100%;
+  height:130px;
+  border:0.5 solid black;
+  outline:none;
+  text-indent: 10px;
+  margin-top:50px;
+  border-radius:5px;
+}
+.button{
+  float:left;
+  border:none;
+  outline:none;
+  border-radius: 5px;
+  cursor:pointer;
+  color:white;
+  background-color: blue;
+  margin-top:40px;
+  width:120px;
+  height:37.5px;
+  font-size:18px;
+  font-family: 'Fjalla One', sans-serif;
+}
+h2{
+  font-family: 'Signika Negative',sans-serif;
+  color:blue;
+}
+.gbr{
+  margin-left:49px;
+  position: fixed;
+  top:0;
+  background-color:white;
+  margin-top:0;
+  padding-top:8px;
+  padding-bottom:6px;
+  box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.n1{
+  font-family: 'Ubuntu',sans-serif;
+  margin-left:84px;
+  margin-top:0px;
+  font-size:15px;
+  padding-top:9px;
+  position:fixed;
+  top:0;
+  background: #fff;
+  width:100%;
+  height:50px;
+  text-indent:5px;
+  box-shadow:5px 0px 10px rgba(0, 0, 0, 0.2);
+  
+}
+.n2{
+  font-family: 'Urbanist', sans-serif;
+  margin-left:90px;
+  text-decoration: none;
+  position:absolute;
+  top:25px;
+  font-size:11px;
+  color:blue;
+  position: fixed;
+}
+.blank{
+  padding-top:100px;
+  background-color:white;
+}
+.fa-house-user{
+  font-size:20px;
+  text-indent:28px;
+  margin-top:70px;
+  color:black;
+}
+.fa-house-user:hover{
+  color:black;
+}
+.fa-house-user:active{
+  color:#00CDFF;
+}
+.fa-house-user:visited{
+  color:black;
+}
+.fa-house-user:link{
+  color:black;
+}
+.fa-user-edit{
+  color:black;
+  font-size:20px;
+  text-indent:90px;
+}
+.fa-user-edit:hover{
+  color:black;
+}
+.fa-user-edit:link{
+  color:black;
+}
+.fa-user-edit:active{
+   color:#00CDFF;
+}
+.fa-user-edit:visited{
+  color:black;
+}
+.fa-user-circle{
+  color:black;
+  font-size:20px;
+  text-indent:80px;
+}
+.fa-user-circle:hover{
+  color:black;
+}
+.fa-user-circle:link{
+  color:black;
+}
+.fa-user-circle:visited{
+  color:black;
+}
+.fa-user-circle:active{
+  color:#00CDFF;
+}
+.fa-paper-plane{
+  color:black;
+  font-size:20px;
+  text-indent:86px;
+}
+.fa-paper-plane:hover{
+  color:black;
+}
+.fa-paper-plane:link{
+  color:black;
+}
+.fa-paper-plane:visited{
+  color:black;
+}
+.fa-paper-plane:active{
+  color:#00CDFF;
+}
+.txt{
+  font-size:13px;
+  color:black;
+  text-indent:20px;
+  text-transform: uppercase;
+  font-family: 'Montserrat',sans-serif;
+}
+.hs{
+  text-decoration: none;
+}
+.bl{
+  text-decoration: none;
+  margin-left:54px;
+}
+.ab{
+  text-decoration: none;
+  margin-left:63px;
+}
+.ct{
+  text-decoration: none;
+  margin-left:59px;
+}
+.akt{
+  color:#FFFFFF;
+  background:#000;
+  border-radius: 5px;
+}
+#about{
+  margin-top:1cm;
+  width:102%;
+}
+.me-1{
+  text-decoration: none;
+  font-family: 'Patrick Hand',cursive;
+
+}
+.me-2{
+  text-decoration: none;
+  font-family:'Patrick Hand',cursive;
+}
+.abt-me{
+  color:black;
+  margin-bottom:50px;
+  font-family: 'Bebas Neue',cursive;
+}
+.myi{
+  border-radius:100%;
+  border:3px solid white;
+  background:blue;
+}
+#story{
+  margin-top:5cm;
+}
+.card-text{
+  text-decoration: none;
+}
+.s1{
+  text-decoration: none;
+  margin-top:40px;
+  font-family: 'KoHo',sans-serif;
+  padding-left:1.5rem;
+}
+.s0,.S1,.S2{
+  padding-bottom:1rem;
+  border-radius:5px;
+}
+.myh2{
+  padding-bottom:3rem;
+  color:black;
+  font-family: 'Bebas Neue',cursive;
+}
+.svg{
+  width:102%;
+  margin-top: 3rem;
+}
+.mypr{
+  background:#F7F7F7;
+  border:1px solid black;
+  padding-top:50px;
+  padding-bottom:2rem;
+}
+.dt1{
+  font-family: 'Encode Sans SC',sans-serif;
+  line-height: 4rem;
+}
+.lg{
+  color:blue;
+  margin-top:50px;
+}
+.myh2{
+  padding-top:60px;
+  width:102%;
+}
+.lst{
+  list-style-type:none;
+  margin-top:-20px;
+}
+.lst li{
+  float:left;
+  padding:70px 25px;
+}
+.fa-thumbs-up{
+  color:black;
+  font-size: 35px;
+}
+.fa-comment-dots{
+  color:black;
+  font-size:35px;
+}
+.fa-youtube-square{
+  color:black;
+  font-size: 35px;
+}
+ .fa-facebook-square{
+   color:black;
+   font-size:35px;
+ }
+.lk,.ctm,.sh,.fl{
+  font-size:19px;
+  color:black;
+  text-decoration: none;
+  font-family: 'Basic',sans-serif;
+}
+.hero:hover{
+  color:black;
+}
+.hero:visited{
+  color:black;
+}
+.fa-thumbs-up:hover{
+  color:blue;
+}
+ .fa-thumbs-up:visited{
+   color:black;
+}
+.fa-thumbs-up:active{
+  color:#00CDFF;
+}
+.fa-thumbs-up:link{
+  color:black;
+}
+.lk:hover{
+  color:black;
+}
+.lk:visited{
+  color:black;
+}
+.ctm:visited{
+  color:black;
+}
+.ctm:hover{
+  color:blue;
+}
+.sh:visited{
+  color:black;
+}
+.sh:hover{
+  color:blue;
+}
+.fl:visited{
+  color:black;
+}
+.fl:hover{
+  color:blue;
+}
+.fa-comment-dots:hover{
+  color:blue;
+}
+.fa-comment-dots:active{
+  color:#00CDFF;
+}
+.fa-comment-dots:visited{
+  color:black;
+}
+.fa-comment-dots:link{
+  color:black;
+}
+.fa-youtube-square:hover{
+  color:blue;
+}
+.fa-youtube-square:visited{
+  color:black;
+}
+.fa-youtube-square:active{
+  color:#00CDFF;
+}
+.fa-youtube-square:link{
+  color:black;
+}
+.fa-facebook-square:hover{
+  color:blue;
+}
+.fa-facebook-square:visited{
+  color:black;
+}
+.fa-facebook-square:active{
+  color:#00CDFF;
+}
+.fa-facebook-square:link{
+  color:black;
+}
+#alert{
+  width:90%;
+  height:70px;
+  margin-left:1rem;
+  margin-top:1cm;
+}
+.footer{
+  background:#00D9FF;
+  color:white;
+  padding:10px 0;
+  padding-top: 15px;
+  width:103%;
+  height:50px;
+  margin-top:15rem;
+}
+.ft{
+  color:#1F54FF;
+  font-family: 'Russo One', sans-serif;
+}
+.btn-loading{
+  float: left;
+  margin-top: 40px;
+  margin-left:0px;
+}
+.my-Alert, .Alerr{
+  position:relative;
+  top:-100px;
+  width:85%;
+  border-radius:5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
